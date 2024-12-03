@@ -1,6 +1,6 @@
 # Udacity Project - Design for Performance and Scalability
 
-This is one of the project in Udacity AWS Cloud Architect Nanodegree.
+This is one of the project in Udacity AWS Cloud Architect Nanodegree. Resources and instructions can be found [here](https://github.com/udacity/cd0345-design-for-performance-and-scalability).
 
 ## Project Overview
 
@@ -9,7 +9,8 @@ In this project, I have:
 - Practiced the skills I have learned throughout the course to optimize infrastructure for cost and performance. 
 - Used Terraform to provision and configure AWS services in a global configuration.
 
-Resources and instructions can be found [here](https://github.com/udacity/cd0345-design-for-performance-and-scalability).
+![image](https://github.com/user-attachments/assets/e6b615f7-f9aa-4ebf-99f5-77fd58b3f426)
+
 
 ## Project Files
 - `Exercise`: Contains the terraform code to create EC2 instances & deploy lamda function in AWS.
