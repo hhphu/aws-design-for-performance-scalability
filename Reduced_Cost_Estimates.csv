@@ -1,0 +1,9 @@
+Region,Service,Upfront ,Monthly,First 12 months total,Currency,Configuration summary,Reson for modifying
+US East (N. Virginia),AWS VPC,0,40.15,481.8,USD,"Number of NAT Gateways (1) Number of In-use public IPv4 addresses (2), Number of Idle public IPv4 addresses (0)",
+US East (N. Virginia),AWS CloudFront,0,220,2640,USD,"Data transfer out to internet (2000 GB per month), Data transfer out to origin (2000 GB per month), Number of requests (HTTPS) (10000000 per month)",
+US East (N. Virginia),Application Load Balancer,0,149.65,1795.8,USD,"Number of Application Load Balancers (2); Processed bytes (EC2 Instances and IP addresses as targets)
+Enter the total data processed per ALB for EC2 Instances and IP addresses as targets.
+Value",
+US East (N. Virginia),S3 Standard,0,230,2760,USD,S3 Standard storage (10000 GB per month),
+US East (N. Virginia),RDS,0,"5,986.88",71842.56,USD,"Storage amount (3000 GB), Storage for each RDS instance (Magnetic (previous generation)), Nodes (2), Instance type (db.m2.4xlarge), Utilization (On-Demand only) (95 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (10000 GB)","Change the back up storage type to Magnetic HDD (whose storage amount is set to 3000 GB). The reason is that we have 2 DB instances running with 90% utilizaiton and for a 50,000 region users, 3000 GB backup storage should suffice. "
+US East (N. Virginia),EC2,0,134.61,1615.32,USD,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 2), Advance EC2 instance (t2.xlarge), Pricing strategy (Compute Savings Plans 3yr No Upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)",
